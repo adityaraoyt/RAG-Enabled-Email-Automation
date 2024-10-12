@@ -1,6 +1,5 @@
 
 
-```markdown
 # AI-Powered Email Follow-up Generator
 
 This script generates personalized follow-up emails for MyCompany using the Tiny LLAMA LLM enabled with RAG. It leverages company-specific information and OpenAI's GPT-4 to create tailored, effective follow-up messages.
