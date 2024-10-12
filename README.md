@@ -23,11 +23,11 @@ This script generates personalized follow-up emails for MyCompany using the Tiny
 1. Clone this repository
 
 2. Set up a local environment using either of these commands
-   ```
+   
    python -m venv myenv
    # or
    virtualenv myenv
-   ```
+   
 
 3. Activate the virtual environment:
    - On Windows:
@@ -40,17 +40,17 @@ This script generates personalized follow-up emails for MyCompany using the Tiny
      ```
 
 4. Install the required packages:
-   ```
+   
    pip install -r requirements.txt
-   ```
+   
 
 ## Usage
 
 Run the script with the following command-line arguments:
 
-```
+
 python main.py --days <days> --company <company_name> --email <recipient_email> --sender-email <sender_email> [--send]
-```
+
 
 Arguments:
 - `--days`: Number of days since last contact
@@ -60,9 +60,9 @@ Arguments:
 - `--send`: (Optional) Flag to send the email immediately
 
 Example:
-```
+
 python -W ignore main.py --days 7 --company comany1 --email john@company1.com --sender-email your@email.com --send
-```
+
 
 ## Directory Structure
 
