@@ -75,4 +75,4 @@ python -W ignore main.py --days 7 --company comany1 --email john@company1.com --
 - Ensure that company-specific documents are placed in the correct subdirectory under `docs/`
 - The script uses Gmail's SMTP server for sending emails. Adjust the SMTP settings if using a different email provider
 - Make sure to use a secure method to input your email password when sending emails
-```
+
